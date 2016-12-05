@@ -1,0 +1,23 @@
+.blog-post {
+
+}
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+	width:80%;
+}
+
+.individual-post {
+	text-align:center;
+	h3 {
+		font-size:1.8rem;
+		// font-weight:bold;
+		letter-spacing:1px;
+		line-height:2rem;
+		margin-bottom:0;
+	}
+	p:first-of-type {
+		font-size:1rem;
+		margin-top:0rem;
+	}
+}

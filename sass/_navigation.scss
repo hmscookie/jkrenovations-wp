@@ -1,0 +1,37 @@
+nav {
+	height:11vh;
+	display:flex;
+	background:white;
+	position:relative;
+	// position: fixed; 
+	// top: 70px;
+	ul {
+		display:flex;
+		width:100%;
+		list-style-type:none;
+		align-content:space-between;
+		align-items:center;
+		text-align:center;
+		padding:0;
+		border-bottom:1px solid $grey;
+		li {
+			text-decoration:none;
+			display:block;
+			width:20%;
+			font-weight:500;
+			font-size:1rem;
+			transition:all 0.3s ease;
+			cursor:pointer;
+			&:hover {
+				 color:$yellow;
+			}
+		}
+	}
+}
+
+// &:after{
+// 			    content: "";
+//     width: 5rem;
+//     height: 1px;
+//     bottom: -1.5rem;
+//     background: #0D0D0D;

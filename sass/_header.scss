@@ -1,0 +1,68 @@
+.hero-image {
+	background-image:url(./images/hero-photo.jpg);
+	height:89vh;
+	background-repeat:no-repeat;
+	// background-size: cover;
+	background-size:100%;
+	// background-attachment:fixed;
+	width:100%;
+}
+header {
+	margin: 0 auto;
+	width:100%;
+	// background-image:url(images/concrete_seamless.png);
+}
+
+.header-text {
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	padding-top:150px;
+	width:70%;
+	color: $white;
+	h1 {
+		font-size:5rem;
+		letter-spacing:0.7px;
+		margin-bottom:1rem;
+		line-height:1;
+		.yellow {
+			color:$yellow;
+		}
+	}
+	h2 {
+		font-size:2.3rem;
+		text-align:left;
+		font-weight:400;
+		padding-bottom:2rem;
+		line-height:1.2;
+		margin-top:0;
+	}
+	a {
+		text-decoration:none;
+		button {
+			background:$yellow;
+			width:200px;
+			border:none;
+			padding:0.8rem 0;
+			font-size:1rem;
+			font-weight:500;
+			transition:all 0.3s ease;
+			&:hover {
+				background:white;
+			}
+		}
+	}
+
+}
+
+nav {
+	a {
+		// color:orange;
+		text-decoration:none;
+		color:black;
+		transition: color 0.3s ease;
+		&:hover {
+			color:$yellow;
+		}
+	}
+}
